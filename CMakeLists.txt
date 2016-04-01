@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.9)
+project(Riot)
+include_directories(header)
+file (GLOB SOURCES "src/*.cpp")
+add_executable(RIOT_TEST ${SOURCES} libcurl)
