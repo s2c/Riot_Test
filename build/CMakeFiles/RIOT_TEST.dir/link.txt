@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/RIOT_TEST.dir/src/main.cpp.o  -o RIOT_TEST -rdynamic 

@@ -5,7 +5,7 @@ using namespace std ;
 
 int main(int argc, char const *argv[]) {
  CURL *curl;
- CURLcode res;
+ CURLcode result;
 
  curl = curl_easy_init();
 
@@ -21,7 +21,7 @@ int main(int argc, char const *argv[]) {
 /* always cleanup */
   curl_easy_cleanup(curl);
 }
- string key = "a0783aee-cba4-49fd-9013-80c51a035899";
+ string key = "7b2ee4a6-f93c-44bb-991a-58996180bcde";
  std::cout << key << std::endl;
   return 0;
 }
